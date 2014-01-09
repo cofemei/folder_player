@@ -1,0 +1,15 @@
+
+<div ng-controller="HelloCtrl">
+	  {{ greeting }}
+  <table>
+  	<tr ng-repeat="item in array">
+  		<td ng-click="open(item)">{{item}}</td>
+  	</tr>
+  </table>
+
+  <table>
+  	<tr ng-repeat="t in imgArray">
+  		<td><img src="{{t}}"/></td>
+  	</tr>
+  </table>
+</div>

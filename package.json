@@ -1,0 +1,15 @@
+{
+  "name": "forder-player",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "connect": "~2.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "author": "Mei9g <cofemei@gmail.com>",
+  "license": "MIT"
+}
