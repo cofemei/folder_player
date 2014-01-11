@@ -20,7 +20,6 @@ app.controller('HelloCtrl', ['$scope', '$http', function($scope, $http) {
 
   	$scope.open = function(item) {
     	$http.get("/list/?query="+item).success(function (data) {
-    		console.log(data);
     		$scope.imgArray = data;
   		});
   	};
